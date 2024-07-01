@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--w);
+    display: flex;
+}
+
+.left{
+    position: relative;
+    flex: 4;    
+}
+
+.top{
+    position: sticky;    
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo span{
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.head h1{
+    font-size: 60px;
+}
+.head span{
+    font-size: 20px;
+    color: var(--grayL);
+}
+
+.googleIcon{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--w);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.loginForm input{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: var(--clrSecond);
+    margin: 10px 0;
+}
+
+.loginForm input::placeholder{
+    color: var(--grayL);
+}
+
+.right{
+    flex: 2;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+.right h2{
+    font-size: 65px;
+    color: var(--w);
+}
+.right p{
+    font-size: 18px;
+    color: var(--wL);
+    font-weight: lighter;
+}
+.loginForm button{
+    margin-top: 15px;
+}
+
+.left button:hover,
+.right button:hover{
+    border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.btn{
+    background-color: var(--bg);
+    border: none;
+    border-radius: var(--br);
+    color: var(--clr);
+    font-weight: var(--fw);
+    font-size: var(--fs);
+    padding: var(--py) var(--px);
+    margin: var(--my) var(--mx);
+    padding: var(--p);
+    margin: var(--m);
+    width: var(--width);
+    align-self: var(--align-c);
+    margin-top: var(--mt);
+    cursor: pointer;
+    transition: transform .6s ease-in;
+}
+.btn:active{
+    transform: scale(.095);
+}
